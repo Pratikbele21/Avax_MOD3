@@ -5,7 +5,7 @@
 This is a Solidity smart contract for create your own ERC20 token and deploy it using HardHat or Remix. Once deployed, you should be able to interact with it for your walk-through video. From your chosen tool, the contract owner should be able to mint tokens to a provided address and any user should be able to burn and transfer tokens
 
 ## Introduction
-In this Create a Contract To Mint The Token , Burn The Token and transfer the Token which is ERC20.
+In this Create a Contract To Mint The Token , Burn The Token and Transfer the Token which is ERC20.
 
 ### Requirements
 - Compiler Remix IDE or Hardhat
