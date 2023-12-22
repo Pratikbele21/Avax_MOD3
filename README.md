@@ -17,13 +17,14 @@ In this Create a Contract To Mint The Token , Burn The Token and transfer the To
 ### Executing program
 * Create a contract.
 * Import the File Form openzeppelin library (ERC20 & Ownable)
+  
 * Function Mint
 ```
 function mint(address account, uint256 amount) external onlyOwner {
         _mint(account, amount);
     }
 ```
-This functions helps to Mint the Token to the Owner Address  next is
+This functions helps to Mint the Token to the Owner Address.
 
 * Funtion Burn 
 
@@ -32,7 +33,7 @@ This functions helps to Mint the Token to the Owner Address  next is
     _burn(_msgSender(), amount);
 }
 ```
-the function to burn the token from the owner address by specified amount 
+The Function to Burn the Token from the Owner address by Specified Amount. 
 
 * Funtion TransferWithCheck 
 
