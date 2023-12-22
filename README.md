@@ -29,7 +29,7 @@ This functions helps to Mint the Token to the Owner Address.
 * Funtion Burn 
 
 ```
-    function burn(uint256 amount) external onlyOwner {
+function burn(uint256 amount) external onlyOwner {
     _burn(_msgSender(), amount);
 }
 ```
